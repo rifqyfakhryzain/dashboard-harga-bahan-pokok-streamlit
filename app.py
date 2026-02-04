@@ -5,7 +5,7 @@ import numpy as np
 import plotly.express as px
 from streamlit_option_menu import option_menu
 
-DATA_PATH = "fpma_indonesia_monthly_clean_long_with_oil.csv"
+DATA_PATH = "data/fpma_indonesia_monthly_clean_long_with_oil.csv"
 
 st.set_page_config(
     page_title="Dashboard Harga Bahan Pokok Indonesia",
@@ -334,3 +334,4 @@ with tab2:
         file_name="fpma_filtered.csv",
         mime="text/csv"
     )
+
